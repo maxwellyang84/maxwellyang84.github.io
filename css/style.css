@@ -14,30 +14,6 @@ h3{
     text-align: center;
 }
 
-.Big-Yoshi{
-    display: block;
-    
-    width:300px;
-    position: absolute;
-    right: 100px;
-    border-radius: 50%
-}
-
-.Big-Yoshi-2{
-    
-    
-     display: block;
-    
-    width:30px;
-    position: absolute;
-    left: 100px;
-    top:250px;
-    border-radius: 50%
-        
-    
-    
-    
-}
 body {
     margin: 0;
     padding: 0;
@@ -122,3 +98,41 @@ body {
 .nav-col ul li a: hover{
     color: #1c9769;
 }
+
+.pfp {
+    border-radius: 50%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
