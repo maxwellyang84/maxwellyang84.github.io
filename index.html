@@ -8,11 +8,12 @@
 
         <!-- Bootstrap CSS -->
        
-        <link href="css/bootstrap.css" rel="stylesheet" />
+        
 
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
         <title>Maxwell Yang</title>
     </head>
     
@@ -42,7 +43,26 @@
             <section>
                 <div class="center ">
                     <a class="info">Project</a>
-                    <a id="hello" >About</a>
+                    <a class="info" data-toggle="modal" href="#myModal" >About</a>
+                         <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Modal Header</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Some text in the modal.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
                     <a href="/assets/Maxwell_Yang_Resume.pdf" class="info">Resume</a>
                 </div>     
             </section>
@@ -62,8 +82,10 @@
                     </li>
                 </ul>
             </section>
-            =
+            
         </section>
+        
+   
         
 <!--
         <div id="about" >
@@ -112,26 +134,7 @@
         </footer>
         
         
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+
         
 <!--
         Overlay
@@ -184,16 +187,11 @@
         </div>
 -->
         
-        
-        <script>
-        $(document).ready(function(){
-          $("#hello").click(function(){
-            $("exampleModalLong").modal();
-          });
-        });
-        </script>
-        <script src="js/myScript.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
+<!--        <script src="js/myScript.js"></script>-->
+        
        
     </body>
     
