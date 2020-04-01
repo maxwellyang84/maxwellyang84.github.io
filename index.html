@@ -1,43 +1,140 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
-        <title>Maxwell Yang</title>
+        
+         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+       
+        <link href="css/bootstrap.css" rel="stylesheet" />
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- font awesome has a lot of css worked icons to use -->
+        <title>Maxwell Yang</title>
     </head>
     
     <body>
         
-        <img class="pfp" src="./images/pfp.PNG" alt="Maxwell"/>
         
-        <h1>Maxwell Yang</h1>
-       
         
-       
-        
-        <h2>3rd Year Engineering Physics Student</h2>
-        <div class = "topnav">
+        <div class = " border-bottom topnav">
             <a href="#home" class = "active">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a href="#resume">Resume</a>
+            <a href="/assets/Maxwell_Yang_Resume.pdf">Resume</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>            
         </div>
+        
+        
         <div class="header">
+    
             <h1>Maxwell Yang</h1>
-
+            <h2>Software Developer | Mathematical Genius</h2>
         </div>
         
-        <!--Menu button-->
-        <div class="button">
-            <a href="#" id="btn-menu" class="btn-open"></a>
+        
+        <section id="links">
+            <section>
+                <div class="center ">
+                    <a class="info">Project</a>
+                    <a id="hello" >About</a>
+                    <a href="/assets/Maxwell_Yang_Resume.pdf" class="info">Resume</a>
+                </div>     
+            </section>
+            <section  class="d-flex justify-content-center">
+                <ul class="col-md-6 icons">
+                    <li>
+                        <a href="https://github.com/maxwellyang84/"><img src="./images/github.svg" alt="github"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/maxwellyang84"><img src="./images/linkedin-icon.svg" alt="linkedin"></a>
+                    </li>
+                    <li>
+                         <a href="https://www.spotify.com"><img src="./images/Spotify_logo_without_text.svg" alt="spotify"></a>
+                    </li>
+                    <li >
+                         <a href="https://letterboxd.com/maxwellyang84/" ><img src="./images/letterboxd-decal-dots-pos-rgb.svg"  alt="letterboxd" ></a>
+                    </li>
+                </ul>
+            </section>
+            =
+        </section>
+        
+<!--
+        <div id="about" >
+            <section >
+                <div class="title"><h3>About</h3></div>
+                <img class="border border-dark image-fluid pfp" src="./images/websitepfp.PNG" alt="Maxwell"/>
+                <center><p>My name is Maxwell Yang and I am a 3rd Year Engineering Physics student at UBC. I am passionate in learning all there is to mathematics and computer science. Looking to explore where I can take my passion, I am currently working on learning web development. Currently, I am spending this quarantine playing a lot of Animal Crossing and Super Smash Bros. in addition to making this website! Fun times.</p></center>
+            </section>
         </div>
         
-        <!--Overlay-->
+        <section id="projects">
+            <div class="container">
+                <div class="title"><h3>Projects</h3></div>
+                <div class="row">
+                    <div class="col-md-4 col-lg-6 project">
+                        <img>
+                        <h2>greenEats</h2>
+                        <center><p>Winner of nwHacks</p></center>
+                    </div>
+                    <div class="col-md-4 col-lg-6 project">
+                        <img>
+                        <h2>Machine Learning Simulation</h2>
+                        <center><p>Cool Python Stuff</p></center>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-lg-6 project">
+                        <img>
+                        <h2>Autonomous Robot Project</h2>
+                        <center><p>ENPH 253 cool sauce</p></center>
+                    </div>
+                    <div class="col-md-4 col-lg-6 project">
+                        <img>
+                        <h2>Various Algorithmic Based Projects</h2>
+                        <center><p>CPEN 221, CPSC 221, CPSC 320</p></center>
+                    </div>
+                </div>
+            </div>
+        </section>
+-->
+        
+        <footer id="footer">
+            <section>
+                <p class="border-top footnote">Maxwell Yang | March 2020</p>
+            </section>
+        </footer>
+        
+        
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+<!--
+        Overlay
         <div class="overlay">
             
             <div class="nav-container">
@@ -85,10 +182,19 @@
             </div>
         
         </div>
+-->
         
         
-        
+        <script>
+        $(document).ready(function(){
+          $("#hello").click(function(){
+            $("exampleModalLong").modal();
+          });
+        });
+        </script>
         <script src="js/myScript.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+       
     </body>
     
     
