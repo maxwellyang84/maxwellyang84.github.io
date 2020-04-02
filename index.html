@@ -22,7 +22,7 @@
         
         
         <div class = " border-bottom topnav">
-            <a href="#home" class = "active">Home</a>
+            <a class = "active" onclick="fadeInMain()">Home</a>
             <a href="#aboutmodal">About Me</a>
             <a href="#projects">Projects</a>
             <a href="/assets/Maxwell_Yang_Resume.pdf">Resume</a>
@@ -43,27 +43,9 @@
             <section>
                 <div class="center ">
                     <a class="info"  onclick="fadeOutMain()">Projects</a>
-                    <a class="info" data-toggle="modal" href="#aboutmodal">About Me</a>
+                    <a class="info" onclick="fadeOutMain()" >About Me</a>
                     
-                    <div class="modal fade" id="aboutmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-                        <div class="modal-content">
-                         <div class="modal-header pl-0">
-                             <h2 class="modal-title w-100 text-center position-absolute">About Me</h2>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                          <div class="modal-body">
-                         
-                            <img src="images/websitepfp.PNG" class="pfp">
-                            <p class="border-top">My name is Maxwell Yang and I am a 3rd Year Engineering Physics student at UBC. I am passionate in learning all there is to mathematics and computer science. Looking to explore where I can take my passion, I am currently working on learning web development. Currently, I am spending this quarantine playing a lot of Animal Crossing and Super Smash Bros. in addition to making this website! Fun times. </p>
-                           
-                          </div>
-                         
-                        </div>
-                      </div>
-                    </div>
+                 
                     
                     <a href="/assets/Maxwell_Yang_Resume.pdf" class="info">Resume</a>
                 </div>     
@@ -88,7 +70,13 @@
             
         </section>
         </div>
-   
+        
+        
+   <footer id="footer">
+            <section>
+                <p class="border-top footnote">Maxwell Yang | March 2020</p>
+            </section>
+        </footer>
         
 <!--
         <div id="about" >
@@ -130,11 +118,7 @@
         </section>
 -->
         
-        <footer id="footer">
-            <section>
-                <p class="border-top footnote">Maxwell Yang | March 2020</p>
-            </section>
-        </footer>
+        
         
         
 
@@ -188,6 +172,28 @@
             </div>
         
         </div>
+-->
+        
+<!--
+           <div class="modal fade" id="aboutmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                        <div class="modal-content">
+                         <div class="modal-header pl-0">
+                             <h2 class="modal-title w-100 text-center position-absolute">About Me</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                          <div class="modal-body">
+                         
+                            <img src="images/websitepfp.PNG" class="pfp">
+                            <p class="border-top">My name is Maxwell Yang and I am a 3rd Year Engineering Physics student at UBC. I am passionate in learning all there is to mathematics and computer science. Looking to explore where I can take my passion, I am currently working on learning web development. Currently, I am spending this quarantine playing a lot of Animal Crossing and Super Smash Bros. in addition to making this website! Fun times. </p>
+                           
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
 -->
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
