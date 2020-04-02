@@ -341,6 +341,10 @@ ul{
         filter: invert(0%) ;
     }
 
+.modal-backdrop {
+     background-color: rgba(0,0,0,.0001) !important;
+}
+
 
 
 
