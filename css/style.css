@@ -148,7 +148,7 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    color: black;
+    color: 	black;
     cursor: pointer;
   }
   
@@ -160,6 +160,11 @@ body {
   }
 
 .topnav a.active:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.topnav a.active:active{
     color:black;
     cursor: pointer;
 }
@@ -231,6 +236,13 @@ ul{
 
 
 .info:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.info:active{
     background-color:black;
     color:white;
     cursor: pointer;
@@ -317,6 +329,17 @@ ul{
     text-underline-position: under;
     
 }
+
+.svg{
+    filter: invert(30%) ;
+}
+.svg:hover{
+        filter: invert(0%) ;
+    }
+
+.svg:active{
+        filter: invert(0%) ;
+    }
 
 
 
