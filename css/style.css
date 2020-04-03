@@ -272,6 +272,7 @@ ul{
 .pfp {
    
 /*    border: 1px solid black;*/
+    width:50%;
     border-radius: 50%;
     display:block;
     margin-left:auto;
@@ -307,6 +308,37 @@ ul{
 
 #mainpage{
     opacity: 1
+}
+
+#projectlistpage{
+    text-align: center;
+}
+
+#projectlistpage h2{
+    display: inlilne;
+    font-size: 50px;
+    margin-bottom: 100px;
+    border: 1px solid white;
+
+    padding: 50px 25px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#greeneats{
+    
+}
+
+#coding{
+    width=50%;
+}
+
+#birdseye{
+    width=1px;;
+}
+
+#hedwig{
+    
 }
 
 
