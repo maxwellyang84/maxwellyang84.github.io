@@ -22,31 +22,26 @@
         
         
         <div class = " border-bottom topnav">
-            <a class = "active" onclick="fadeInMain()">Home</a>
-            <a href="#aboutmodal">About Me</a>
-            <a href="#projects">Projects</a>
+            <a class = "active" onclick="onClickMain()">Home</a>
+            <a href="#aboutmodal" onclick="onClickAbout()">About Me</a>
+            <a href="#projects" onclick="onClickProjects()">Projects</a>
             <a href="/assets/Maxwell_Yang_Resume.pdf">Resume</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>            
         </div>
         
-    <div id="mainpage">
+    <div style="display: block" id="mainpage">
         <div class="header">
     
             <h1>Maxwell Yang</h1>
             <h2>Software Developer | Mathematical Genius</h2>
         </div>
-        
-        
         <section id="links">
             <section>
                 <div class="center ">
-                    <a class="info"  onclick="fadeOutMain()">Projects</a>
-                    <a class="info" onclick="fadeOutMain()" >About Me</a>
-                    
-                 
-                    
+                    <a class="info"  onclick="onClickProjects()">Projects</a>
+                    <a class="info" onclick="onClickAbout()" >About Me</a> 
                     <a href="/assets/Maxwell_Yang_Resume.pdf" class="info">Resume</a>
                 </div>     
             </section>
@@ -70,6 +65,50 @@
             
         </section>
         </div>
+        
+    <div style="display: none" id="aboutpage">
+        <section class="container">
+        <section class="row">
+            <img src="images/websitepfp.PNG" class=" col-6 pfp">
+            <div class=" col-6 about-text">
+                <h2> About Me</h2>
+                <p> My name is Maxwell Yang and I am a 3rd Year Engineering Physics student at UBC. I am passionate in learning all there is to mathematics and computer science. Looking to explore where I can take my passion, I am currently working on learning web development. Currently, I am spending this quarantine playing a lot of Animal Crossing and Super Smash Bros. in addition to making this website! Fun times. </p>
+            
+            </div>
+        
+        </section>
+            </section>
+        
+    
+    </div>
+        
+    <div style="display: none" id="projectlistpage">
+        <h3>Projects</h3>
+        <section class="container">
+            <section class="row">
+                <div class="col-6">
+                    <img>
+                    <p> greenEats</p>
+                </div>
+                <div class="col-6">
+                    <img>
+                    <p>Machine Learning Simulation</p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-6">
+                    <img>
+                    <p>Autonomous Robot</p>
+                </div>
+                <div class="col-6">
+                    <img>
+                    <p>Various Algorithm Projects</p>
+                </div>
+            </section>
+        
+        </section>
+    
+    </div>
         
         
    <footer id="footer">
