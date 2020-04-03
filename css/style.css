@@ -316,14 +316,26 @@ ul{
 
 #projectlistpage h2{
     display: inlilne;
-    font-size: 50px;
-    margin-bottom: 100px;
-    border: 1px solid white;
-
-    padding: 50px 25px;
+    font-size: 40px;
+    margin-bottom: 50px;
+/*    border: 1px solid white;*/
     text-decoration: underline;
     text-underline-position: under;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
 }
+
+#projectlistpage h3{
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 20px;
+}
+
+#projectlistpage col-6{
+    padding-top: 40px;
+}
+
 
 #greeneats{
     
