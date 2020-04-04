@@ -26,7 +26,7 @@ body {
    font-weight: 300;
 /*    background-color:#97d2e6;*/
 /*    background-color:#8BBEE8FF;*/
-    background-image: url("../images/IMG_2389_alt.JPG");
+    background-image: url("../images/IMG_2380.JPG");
     background-size: cover;
     color:white;
 }
@@ -92,7 +92,7 @@ body {
 .topnav {
 /*    background-color:#8BBEE8FF;*/
     overflow: hidden;
-    
+    border-bottom: 1px solid white;
   }
   
   /* Style the links inside the navigation bar */
