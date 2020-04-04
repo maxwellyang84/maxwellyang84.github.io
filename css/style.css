@@ -317,6 +317,11 @@ ul{
     .about-text p{
         margin-bottom: 40px;
     }
+    
+    #projectlistpage h2{
+        color:black;
+    }
+    
 }
 
 #projectlistpage{
