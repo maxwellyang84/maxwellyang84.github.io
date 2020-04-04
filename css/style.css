@@ -210,6 +210,10 @@ ul{
     .info{
         width:30%;
     }
+    
+    #links{
+        margin-bottom: 50px;
+    }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
