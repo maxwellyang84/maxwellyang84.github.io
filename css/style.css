@@ -321,9 +321,11 @@ ul{
         font-size: 20px;
     }
     
+/*
     #projectlistpage h2{
         color:black;
     }
+*/
     
     .pfp{
         width:80%
@@ -395,11 +397,17 @@ ul{
     
 }
 
-
+body{
+     display: flex;
+  flex-direction: column;
+}
 
 #footer{
-   
+    margin-top: auto;
 }
+
+
+
 
 
 
