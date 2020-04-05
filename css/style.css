@@ -232,7 +232,7 @@ ul{
 
 #aboutpage{
     margin-top: 110px; 
-    margin-bottom: 70px;
+    margin-bottom: 133px;
     display:none;
     opacity: 0;
 }
@@ -321,7 +321,7 @@ ul{
 #projectlistpage h2{
     display: inlilne;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 58.5px;
 /*    border: 1px solid white;*/
     text-decoration: underline;
     text-underline-position: under;
