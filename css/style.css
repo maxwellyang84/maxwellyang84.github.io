@@ -26,7 +26,7 @@ body {
    font-weight: 300;
 /*    background-color:#97d2e6;*/
 /*    background-color:#8BBEE8FF;*/
-    background-image: url("../images/IMG_2380.JPG");
+    background-image: url("../images/IMG_2380_alt.JPG");
     background-size: cover;
     color:white;
 }
@@ -90,7 +90,9 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-/*    background-color:#8BBEE8FF;*/
+/*    background-color:#242629;*/
+/*    background-color: #363636;*/
+
     overflow: hidden;
     border-bottom: 1px solid white;
   }
@@ -316,13 +318,29 @@ ul{
     
     .about-text p{
         margin-bottom: 40px;
-        font-size: 14px;
+        font-size: 20px;
     }
     
     #projectlistpage h2{
         color:black;
     }
     
+    .pfp{
+        width:80%
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:1000px){
+    .about-text p{
+        font-size: 20px;
+    }
+    
+    #aboutpage{
+        margin-bottom:200px;
+    }
 }
 
 #projectlistpage{
@@ -378,6 +396,10 @@ ul{
 }
 
 
+
+#footer{
+   
+}
 
 
 
