@@ -57,21 +57,21 @@ function onClickMain(){
 
 function fade(element, element2){
     
-    var seconds = 2000/1000;
+    var seconds = 1000/1000;
     element.style.transition = "opacity "+seconds+"s ease";
     element.style.opacity = 0;
     
     setTimeout(function() {
         element.style.display="none";
         fadeIn(element2);
-    }, 2000);
+    }, 1000);
     
     
    
 }
 
 function fadeIn(element){
-     var seconds = 2000/1000;
+     var seconds = 1000/1000;
    
     element.style.display = "block";
  
