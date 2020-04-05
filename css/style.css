@@ -292,6 +292,8 @@ ul{
         margin: 20px 20px;
     }
     
+  `
+    
 }
 
 @media screen and (max-width:1000px){
@@ -343,6 +345,8 @@ body{
   flex-direction: column;
 }
 
+
+
 #footer{
     margin-top: auto;
 }
@@ -351,6 +355,8 @@ body{
     background-color: black;
     cursor: pointer;
 }
+
+
 
 
 
