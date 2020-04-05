@@ -88,25 +88,29 @@
         <h2>Projects</h2>
         <section class="container" style="margin-bottom:65px">
             <section class="row" >
-                <div class="border col-md-3" style="padding-top: 30px ">
-                    <center><img src="images/greeneats2.PNG" id = "greeneats" style="width:100%; border-bottom: 1px solid white; padding: 30px; margin-bottom: 30px;" ></center>
+                <div class="project border col-md-3" style="padding-top: 30px " data-toggle="modal" data-target="#greenEatsModal">
+                    <center><img src="images/greeneats2.PNG" id = "greeneats" style="width:225px; height:200px;border-bottom: 1px solid white; padding-bottom: 30px; margin-bottom: 30px;" ></center>
                     <h3>greenEats</h3>
                    <center> <p>Winner of nwHacks 2020. <br> An all-in-one grocery and food waste management app.  </p></center>
+                    <p style="margin-bottom: 20px;"> <u ><em>Technology</em></u> <br>Java, Google Cloud , Azure, stdlib</p>
                 </div>
-                <div class="border col-md-3" style="padding-top: 30px">
-                   <center><img src = "images/birdseye.PNG" id = "birdseye" style="width:100%; height:70%; border-bottom: 1px solid white; padding: 30px;"></center> 
-                    <h3>Machine Learning Simulation</h3>
-                     <center> <p>Autonomous machine learning simulated robot tasked to detect and identify license plates while navigating safely in an occupied street section. </p></center>
+                <div class="project border col-md-3" style="padding-top: 30px; " data-toggle="modal" data-target="#MLModal">
+                   <center><img src = "images/birdseye.PNG" id = "birdseye" style="width:225px; height:200px; border-bottom: 1px solid white; padding-bottom: 30px;  margin-bottom: 30px;"></center> 
+                    <h3>ML Robot</h3>
+                     <center> <p>Autonomous machine learning simulated robot with character recognition and navigation.</p></center>
+                    <p style="margin-bottom: 20px;"> <u ><em>Technology</em></u> <br> Python, ROS, TensorFlow, Keras</p>
                 </div>
-                <div class="border col-md-3" style="padding-top: 30px">
-                    <img src="images/RoboPic2.png" id="hedwig" style="width: 100%; border-bottom: 1px solid white; padding: 30px; margin-bottom: 20px" >
+                <div class="project border col-md-3" style="padding-top: 30px" data-toggle="modal" data-target="#hedwigModal">
+                    <img src="images/RoboPic2.png" id="hedwig" style="width: 225px; height:200px;border-bottom: 1px solid white; padding-bottom: 30px; margin-bottom: 30px;" >
                     <h3>Hedwig</h3>
-                     <center> <p>2nd Place out of 15 teams in annual ENPH Robot Competition. <br>Fully autonomous robot built using STM-32 Blue Pill with software developed in C++. </p></center>
+                     <center> <p>Fully autonomous robot built using STM-32 Blue Pill with software developed in C++. <br></p></center>
+                    <p style="margin-bottom: 20px;"> <u ><em>Technology</em></u> <br> C++, STM-32 Blue Pill</p>
                 </div>
-                <div class="border col-md-3" style="padding-top: 30px">
-                    <img src="images/coding.png" id="coding" style="width:100%; border-bottom: 1px solid white; padding: 30px;margin-bottom: 20px">
-                    <h3>Miscellaneous Algorithm Projects</h3>
-                     <center> <p>Multiple algorithm-based projects from past courses such as CPEN 221, CPSC 221 and CPSC 320. Involving algorithms such as BFS, DFS, Tree Traversals, Dynamic Programming, etc.</p></center>
+                <div class="project border col-md-3" style="padding-top: 30px" data-toggle="modal" data-target="#algorithmModal">
+                    <img src="images/coding.png" id="coding" style="width:225px; height:200px;border-bottom: 1px solid white; padding-bottom: 30px; margin-bottom: 30px;">
+                    <h3>Algorithm Projects</h3>
+                     <center> <p>Algorithm-based projects from past courses such as CPEN 221 and CPSC 221.  </p></center>
+                    <p style="margin-bottom: 20px;"> <u ><em>Algorithms</em></u> <br> BFS, DFS, DP, Tree Traversal</p>
                 </div>
             </section>
             <section class="row">
@@ -116,6 +120,82 @@
         </section>
     
     </div>
+        
+        <div class="modal fade" id="MLModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                        <div class="modal-content">
+                         <div class="modal-header pl-0">
+                             <h2 class="modal-title w-100 text-center position-absolute">Machine Learning Simulation</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                          <div class="modal-body">
+                         
+                           
+                           
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+        
+          <div class="modal fade" id="hedwigModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                        <div class="modal-content">
+                         <div class="modal-header pl-0">
+                             <h2 class="modal-title w-100 text-center position-absolute">Hedwig</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                          <div class="modal-body">
+                         
+                           
+                           
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+        
+          <div class="modal fade" id="algorithmModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                        <div class="modal-content">
+                         <div class="modal-header pl-0">
+                             <h2 class="modal-title w-100 text-center position-absolute">Algorithm Projects</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                          <div class="modal-body">
+                         
+                           
+                           
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+        
+          <div class="modal fade" id="greenEatsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                        <div class="modal-content">
+                         <div class="modal-header pl-0">
+                             <h2 class="modal-title w-100 text-center position-absolute">greenEats</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                          <div class="modal-body">
+                         
+                           
+                           
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
         
         
    <footer id="footer">

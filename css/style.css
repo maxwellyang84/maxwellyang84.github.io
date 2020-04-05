@@ -42,51 +42,6 @@ body {
 }
 
 
-.overlay {
-    position: fixed;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: #f2d50a;
-    opacity: 0;
-}
-
-.nav-container{
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.nav-col{
-    padding: 200px 30px;
-    width 24%;
-    display: inline-block;
-}
-
-.nav-col h2{
-    font-size: 50px;
-    color: #333;
-}
-
-.nav-col ul{
-    padding:0;
-    list-style: none;
-}
-
-.nav-col ul li a{
-    color: #f0f0f0;
-    font-size: 18px;
-    display: block;
-    padding: 8px 0;
-    text-decoration: none;
-    transition: color .2s;
-}
-
-.nav-col ul li a: hover{
-    color: #1c9769;
-}
-
-
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -318,6 +273,8 @@ ul{
 @media screen and (max-width:800px){
     .about-text{
         margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .about-text p{
@@ -330,7 +287,9 @@ ul{
         width:80%
     }
     
-    
+    .project{
+        margin: 20px 20px;
+    }
     
 }
 
@@ -355,6 +314,7 @@ ul{
 
 #projectlistpage{
     text-align: center;
+    margin-bottom: 28px;
 }
 
 #projectlistpage h2{
@@ -375,26 +335,7 @@ ul{
     margin-bottom: 20px;
 }
 
-#projectlistpage col-6{
-    padding-top: 40px;
-}
 
-
-#greeneats{
-    
-}
-
-#coding{
-    width=50%;
-}
-
-#birdseye{
-    width=1px;;
-}
-
-#hedwig{
-    
-}
 
 body{
      display: flex;
@@ -403,6 +344,11 @@ body{
 
 #footer{
     margin-top: auto;
+}
+
+.project:hover{
+    background-color: black;
+    cursor: pointer;
 }
 
 
