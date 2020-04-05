@@ -162,6 +162,14 @@ ul{
     margin-bottom: 20px;
 }
 
+.modal-header h2{
+    font-size: 60px;
+   
+    text-decoration: underline;
+  text-decoration-color: black;
+    text-underline-position: under;
+    
+}
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .info{
@@ -195,6 +203,20 @@ ul{
     .topnav.responsive a.active{
         text-align: left;
     }
+    
+    .pvw-title span {
+        display: none;
+    }
+.pvw-title:after {
+  content: 'Engineering Physics Student';
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+    
+    .modal-header h2{
+        font-size: 40px;
+    }
 }
 
 
@@ -209,14 +231,7 @@ ul{
     
 }
 
-.modal-header h2{
-    font-size: 60px;
-    text-transform: uppercase;
-    text-decoration: underline;
-  text-decoration-color: #8BBEE8FF;
-    text-underline-position: under;
-    
-}
+
 
 .svg{
     filter: invert(30%) ;
